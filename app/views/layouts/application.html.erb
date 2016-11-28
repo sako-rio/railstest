@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Railstest</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+    <!-- プルダウンメニュー -->
+    <ul id="menu">
+      <li><%= image_tag 'menu.jpg' %>
+      <ul class="child">
+        <li><%= link_to 'CONCEPT', controller: 'concepts', action: 'index'%></li>
+        <li><%= link_to '待遇', controller: 'treatments', action: 'index'%></li>
+        <li><%= link_to '募集要項', controller: 'requirements', action: 'index'%></li>
+        <li><%= link_to '入店までの流れ', controller: 'flows', action: 'index'%></li>
+        <li><%= link_to '応募フォーム', controller: 'applications', action: 'index'%></li>
+      </ul>
+    </li>
+
+    <!-- 共通タイトル -->
+    <div align="center">
+      <div class="header">
+        <table>
+          <tr>
+            <th></th>
+            <td>NAGOYA FIRST ONE GROUP</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </head>
+
+  <body>
+
+    <%= yield %>
+
+    <br>
+    <div align="center">
+      <div class="footer">
+        <table>
+          <tr>
+            <td><%= link_to 'TOP', items_path %></td>
+          </tr>
+        </table>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<%= form_for @inquiry, :url => applications_confirm_path do |f| %>
+  <div align="center">
+    <div class="top">
+      <table>
+        <tr>
+          <th></th>
+          <td><%= image_tag 'top2.jpg' %></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div align="center">
+    <div class="taitle">
+      <table>
+        <tr>
+          <th></th>
+          <td>応募フォーム</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <% if @inquiry.errors.any? %>
+    <div class="alert alert-danger" role="alert">
+      <strong>入力内容にエラーがあります</strong>
+      <ul>
+        <% @inquiry.errors.each do |attr, msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div align="center">
+    <table class="application_content_1">
+      <tr>
+        <th><%= f.label :name, t('①お名前')%></th>
+        <td><font color=#000000>　　　　　　　　　　　　k</font></td>
+        <td><%= f.text_field :name %></td>
+      </tr>
+    </table>
+    <table class="application_content_2">
+      <tr>
+        <th><%= f.label :age, t('②年齢') %></th>
+        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
+        <td><%= f.text_field :age %></td>
+      </tr>
+    </table>
+    <table class="application_content_3">
+      <tr>
+        <th><%= f.label :height, t('③身長') %></th>
+        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
+        <td><%= f.text_field :height %></td>
+      </tr>
+    </table>
+    <table class="application_content_4">
+      <tr>
+        <th><%= f.label :weight, t('④体重') %></th>
+        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
+        <td><%= f.text_field :weight %></td>
+      </tr>
+    </table>
+    <table class="application_content_5">
+      <tr>
+        <th><%= f.label :threesize, t('⑤スリーサイズ（B/W/H/)') %></th>
+        <td>　　　　</td>
+        <td><%= f.text_field :threesize %></td>
+      </tr>
+    </table>
+    <table class="application_content_6">
+      <tr>
+        <th><%= f.label :cup, t('⑥cup数') %></th>
+        <td><font color=#000000>　　　　　　　　　　　　k</font></td>
+        <td><%= f.text_field :cup %></td>
+      </tr>
+    </table>
+    <table class="application_content_7">
+      <tr>
+        <th><%= f.label :address, t('⑦お住まい') %></th>
+        <td>　　　　　　　　　　　　</td>
+        <td><%= f.text_field :address %></td>
+      </tr>
+    </table>
+    <table class="application_content_8">
+      <tr>
+        <th><%= f.label :experience, t('⑧風俗経験(あり・なし）') %></th>
+        <td><font color=#000000>　　　　　k</font></td>
+        <td><%= f.text_field :experience %></td>
+      </tr>
+    </table>
+    <table class="application_content_9">
+      <tr>
+        <th><%= f.label :profession, t('⑨現在の職業') %></th>
+        <td>　　　　　　　　　　　</td>
+        <td><%= f.text_field :profession %></td>
+      </tr>
+    </table>
+    <table class="application_content_10">
+      <tr>
+        <th><%= f.label :preferreddate, t('⑩面接希望日時（何月/何日/時間）') %></th>
+        <td>　</td>
+        <td><%= f.text_field :preferreddate %></td>
+      </tr>
+    </table>
+    <table class="application_content_11">
+      <tr>
+        <th><%= f.label :question, t('⑪質問事項等')  %></th>
+        <td>　　　　　　　　　　　</td>
+        <td><%= f.text_field :question  %></td>
+      </tr>
+    </table>
+    <%= f.submit '確認', class: 'btn-primary' %>
+  </div>
+<% end %>

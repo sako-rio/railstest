@@ -1,0 +1,47 @@
+body {
+  background-color: #000000;
+}
+
+.top {
+  background-color: #000000;
+  height: 480px;
+  margin-bottom:10px;
+}
+
+.menu_area_1 {
+  font-size: 400%;
+  background-color: #222222;
+  height: 300px;
+  font-family: "MS 明朝";
+  a:link { color:#C0C0C0; text-decoration:none }
+  a:visited { color:#C0C0C0; text-decoration:none }
+  a:hover { color:#C0C0C0; text-decoration:none }
+  a:active { color:#C0C0C0; text-decoration:none }
+}
+
+.menu_area_2 {
+  font-size: 400%;
+  background-color: #000000;
+  height: 300px;
+  font-family: "MS 明朝";
+  a:link { color:#C0C0C0; text-decoration:none }
+  a:visited { color:#C0C0C0; text-decoration:none }
+  a:hover { color:#C0C0C0; text-decoration:none }
+  a:active { color:#C0C0C0; text-decoration:none }
+}
+
+.onnanoko {
+  width: 280px;
+  height: 380px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+td.a {
+  color: #C0C0C0;
+}
