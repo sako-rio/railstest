@@ -5,7 +5,6 @@ class ApplicationsController < ApplicationController
   end
 
   def confirm
-    raise "#{application_params}"
     @application = Application.new(application_params)
     if @application.valid?
       # OK
