@@ -1,0 +1,460 @@
+@charset "UTF-8";
+/* line 6, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.header {
+  font-size: 400%;
+  background-color: #000000;
+  color: #C0C0C0;
+  height: 100px;
+  font-family: "MS 明朝";
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 17, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.footer {
+  font-size: 400%;
+  background-color: #000000;
+  height: 100px;
+  width: 200px;
+  font-family: "MS 明朝";
+  border-top: solid 1px #222222;
+  border-bottom: solid 1px #222222;
+  border-collapse: separate;
+}
+/* line 26, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.footer a:link {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 27, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.footer a:visited {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 28, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.footer a:hover {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 29, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.footer a:active {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+/* line 33, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* line 40, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+ul#menu li {
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 5px;
+  width: 130px;
+  display: block;
+}
+
+/* line 49, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+ul.child {
+  display: none;
+  position: absolute;
+  margin-left: -5px;
+  padding: 0;
+}
+
+/* line 56, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+ul.child li a {
+  padding: 5px 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+  display: block;
+  color: #fff;
+}
+
+/* line 65, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+li a:hover {
+  background: #444444;
+}
+
+/* line 69, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.applications_thanks {
+  font-size: 400%;
+  background-color: #000000;
+}
+
+/* line 74, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_1 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  border: 2px #FFFFFF solid;
+  margin-bottom: 20px;
+  padding: 0px 50px;
+}
+
+/* line 83, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_2 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 94, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_3 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 105, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_4 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 116, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_5 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 127, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_6 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 49px;
+  margin-bottom: 20px;
+}
+
+/* line 138, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_7 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 48px;
+  margin-bottom: 20px;
+}
+
+/* line 149, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_8 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 48px;
+  margin-bottom: 20px;
+}
+
+/* line 160, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_9 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 171, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_10 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 182, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.application_content_11 {
+  color: #C0C0C0;
+  font-size: 150%;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 5px 50px;
+  margin-bottom: 20px;
+}
+
+/* line 193, /Users/sako/railstest/app/assets/stylesheets/applications.scss */
+.btn-primary {
+  background: none;
+  border: 0;
+  color: #C0C0C0;
+  font-size: 400%;
+  width: 750px;
+}
+@charset "UTF-8";
+/* line 4, /Users/sako/railstest/app/assets/stylesheets/concepts.scss */
+.content {
+  font-size: 300%;
+  height: 600px;
+  color: #C0C0C0;
+  font-family: "MS 明朝";
+}
+
+/* line 11, /Users/sako/railstest/app/assets/stylesheets/concepts.scss */
+.content th {
+  background-color: #222222;
+}
+
+/* line 15, /Users/sako/railstest/app/assets/stylesheets/concepts.scss */
+.taitle {
+  font-size: 600%;
+  font-family: "MS 明朝";
+}
+@charset "UTF-8";
+/* line 5, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_1 {
+  font-size: 300%;
+  color: #C0C0C0;
+  font-family: "MS 明朝";
+  height: 320px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 30px 50px;
+  margin-bottom: 100px;
+}
+
+/* line 17, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_1 td {
+  padding: 50px 50px;
+}
+
+/* line 21, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_2 {
+  font-size: 300%;
+  color: #C0C0C0;
+  font-family: "MS 明朝";
+  height: 260px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 30px 50px;
+  margin-bottom: 100px;
+}
+
+/* line 33, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_2 td {
+  padding: 50px 50px;
+}
+
+/* line 37, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_3 {
+  font-size: 300%;
+  color: #C0C0C0;
+  font-family: "MS 明朝";
+  height: 600px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 30px 50px;
+  margin-bottom: 100px;
+}
+
+/* line 49, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_3 td {
+  padding: 50px 50px;
+}
+
+/* line 53, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_4 {
+  font-size: 300%;
+  color: #C0C0C0;
+  font-family: "MS 明朝";
+  height: 280px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 2px #FFFFFF solid;
+  padding: 30px 50px;
+  margin-bottom: 100px;
+}
+
+/* line 65, /Users/sako/railstest/app/assets/stylesheets/flows.scss */
+.content_4 td {
+  padding: 50px 50px;
+}
+@charset "UTF-8";
+/* line 1, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+body {
+  background-color: #000000;
+}
+
+/* line 5, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.top {
+  background-color: #000000;
+  height: 480px;
+  margin-bottom: 10px;
+}
+
+/* line 11, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_1 {
+  font-size: 400%;
+  background-color: #222222;
+  height: 300px;
+  font-family: "MS 明朝";
+}
+/* line 16, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_1 a:link {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 17, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_1 a:visited {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 18, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_1 a:hover {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 19, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_1 a:active {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+/* line 22, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_2 {
+  font-size: 400%;
+  background-color: #000000;
+  height: 300px;
+  font-family: "MS 明朝";
+}
+/* line 27, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_2 a:link {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 28, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_2 a:visited {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 29, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_2 a:hover {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+/* line 30, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.menu_area_2 a:active {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+/* line 33, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+.onnanoko {
+  width: 280px;
+  height: 380px;
+}
+
+/* line 38, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* line 45, /Users/sako/railstest/app/assets/stylesheets/items.scss */
+td.a {
+  color: #C0C0C0;
+}
+@charset "UTF-8";
+/* line 4, /Users/sako/railstest/app/assets/stylesheets/requirements.scss */
+.essential {
+  font-size: 200%;
+  height: 200px;
+  font-family: "MS 明朝";
+  color: #C0C0C0;
+  border-bottom: solid 1px #C0C0C0;
+  border-collapse: separate;
+}
+
+/* line 13, /Users/sako/railstest/app/assets/stylesheets/requirements.scss */
+.essential-1 {
+  font-size: 200%;
+  height: 800px;
+  font-family: "MS 明朝";
+  color: #C0C0C0;
+  border-bottom: solid 1px #C0C0C0;
+  border-collapse: separate;
+}
+
+/* line 22, /Users/sako/railstest/app/assets/stylesheets/requirements.scss */
+.essential-2 {
+  font-size: 200%;
+  height: 1200px;
+  font-family: "MS 明朝";
+  color: #C0C0C0;
+  border-bottom: solid 1px #C0C0C0;
+  border-collapse: separate;
+}
+/* line 4, /Users/sako/railstest/app/assets/stylesheets/treatments.scss */
+.banner {
+  background-color: #000000;
+  height: 300px;
+  border-collapse: collapse;
+  border: 1px #222222 solid;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
