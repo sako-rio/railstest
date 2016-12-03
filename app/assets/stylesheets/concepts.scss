@@ -13,6 +13,15 @@
 }
 
 .taitle{
+  width:		100%;
+  top: 550px;
   font-size: 600%;
   font-family: "MS 明朝";
+	bottom:		4px;
+	position:	absolute; /* 絶対位置指定 */
+}
+
+.top .top_icon_2{
+  height: auto;
+  max-width: 50%;
 }

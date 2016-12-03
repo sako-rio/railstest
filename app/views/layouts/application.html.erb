@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= favicon_link_tag('favicon.ico') %>
+
     <title>Railstest</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -8,7 +10,7 @@
 
     <!-- プルダウンメニュー -->
     <ul id="menu">
-      <li><%= image_tag 'menu.jpg' %>
+      <li class="menu" ><%= image_tag 'menu.jpg' %>
       <ul class="child">
         <li><%= link_to 'CONCEPT', controller: 'concepts', action: 'index'%></li>
         <li><%= link_to '待遇', controller: 'treatments', action: 'index'%></li>

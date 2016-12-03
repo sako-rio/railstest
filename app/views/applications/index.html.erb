@@ -1,13 +1,6 @@
 <%= form_for @inquiry, :url => applications_confirm_path do |f| %>
   <div align="center">
-    <div class="top">
-      <table>
-        <tr>
-          <th></th>
-          <td><%= image_tag 'top2.jpg' %></td>
-        </tr>
-      </table>
-    </div>
+    <td><%= image_tag 'top2.jpg', id: 'top_icon_5' %></td>
   </div>
 
   <div align="center">
@@ -23,44 +16,6 @@
 
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
 
   <% if @inquiry.errors.any? %>
     <div class="alert alert-danger" role="alert">
@@ -151,5 +106,6 @@
         <td><%= f.text_field :question  %></td>
       </tr>
     </table>
+    <%= f.submit '確認', class: 'btn-primary', id: 'confirm' %>
   </div>
 <% end %>

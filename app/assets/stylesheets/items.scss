@@ -4,8 +4,24 @@ body {
 
 .top {
   background-color: #000000;
-  height: 480px;
+  height: auto;
+  max-width: 50%;
   margin-bottom:10px;
+}
+
+.top .top_icon{
+  height: auto;
+  max-width: 200%;
+}
+
+#top_icon_2{
+  height: auto;
+  max-width: 100%;
+}
+
+#top_icon{
+  height: auto;
+  max-width: 200%;
 }
 
 .menu_area_1 {
@@ -28,11 +44,6 @@ body {
   a:visited { color:#C0C0C0; text-decoration:none }
   a:hover { color:#C0C0C0; text-decoration:none }
   a:active { color:#C0C0C0; text-decoration:none }
-}
-
-.onnanoko {
-  width: 280px;
-  height: 380px;
 }
 
 ul{

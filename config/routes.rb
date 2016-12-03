@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'users/home'
+
+  match '/mail_send', to: 'users#mail_send', via: 'post'
+
   root to: 'items#index'
   resources :flows
   resources :requirements

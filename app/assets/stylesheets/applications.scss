@@ -7,9 +7,9 @@
   font-size: 400%;
   background-color: #000000;
   color: #C0C0C0;
-  height: 100px;
+  height: 150px;
   font-family: "MS 明朝";
-  width:1000px;
+  width: 1000px;
   margin:0 auto;
 }
 
@@ -38,11 +38,12 @@ ul{
 }
 
 ul#menu li{
+  font-size: 150%;
   float: left;
   position: relative;
   margin: 0;
   padding: 5px;
-  width: 130px;
+  width: 280px;
   display: block;
 }
 
@@ -64,11 +65,6 @@ ul.child li a{
 
 li a:hover{
   background: #444444;
-}
-
-.applications_thanks {
-  font-size: 400%;
-  background-color: #000000;
 }
 
 .application_content_1 {
@@ -192,8 +188,14 @@ li a:hover{
 
 .btn-primary {
   background:none;
+  text-decoration: none;
   border:0;
   color: #C0C0C0;
   font-size: 400%;
   width: 750px;
+}
+
+#top_icon_5{
+  height: auto;
+  max-width: 100%;
 }
