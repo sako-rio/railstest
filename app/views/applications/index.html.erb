@@ -42,78 +42,73 @@
     <br>
     <br>
     <br>
-        <table class="application_content_1">
-      <tr>
-        <th><%= f.label :name, t('①お名前')%></th>
-        <td><%= f.text_field :name %></td>
-      </tr>
-    </table>
-    <table class="application_content_2">
-      <tr>
-        <th><%= f.label :age, t('②年齢') %></th>
-        <td><%= f.text_field :age %></td>
-      </tr>
-    </table>
-    <table class="application_content_3">
-      <tr>
-        <th><%= f.label :height, t('③身長') %></th>
-        <td><%= f.text_field :height %></td>
-      </tr>
-    </table>
-    <table class="application_content_4">
-      <tr>
-        <th><%= f.label :weight, t('④体重') %></th>
-        <td><%= f.text_field :weight %></td>
-      </tr>
-    </table>
-    <table class="application_content_5">
-      <tr>
-        <th><%= f.label :threesize, t("⑤スリーサイズ\n（B/W/H/)") %></th>
-        <td><%= f.text_field :threesize %></td>
-      </tr>
-    </table>
-    <table class="application_content_6">
-      <tr>
-        <th><%= f.label :cup, t('⑥cup数') %></th>
-        <td><%= f.text_field :cup %></td>
-      </tr>
-    </table>
-    <table class="application_content_7">
-      <tr>
-        <th><%= f.label :address, t('⑦お住まい') %></th>
-        <td><%= f.text_field :address %></td>
-      </tr>
-    </table>
-    <table class="application_content_8">
-      <tr>
-        <th><%= f.label :experience, t("⑧風俗経験\n(あり・なし）") %></th>
-        <td><%= f.text_field :experience %></td>
-      </tr>
-    </table>
-    <table class="application_content_9">
-      <tr>
-        <th><%= f.label :profession, t('⑨現在の職業') %></th>
-        <td><%= f.text_field :profession %></td>
-      </tr>
-    </table>
-    <table class="application_content_10">
-      <tr>
-        <th><%= f.label :preferreddate, t("⑩面接希望日時\n（何月/何日/時間)") %></th>
-        <td><%= f.text_field :preferreddate %></td>
-      </tr>
-    </table>
-    <table class="application_content_11">
-      <tr>
-        <th><%= f.label :question, t('⑪質問事項等')  %></th>
-        <td><%= f.text_field :question  %></td>
-      </tr>
-    </table>
-    <div class="row application_content_11">
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :name, t('①お名前')%></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :name %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :age, t('②年齢') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :age %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :height, t('③身長') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :height %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :weight, t('④体重') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :weight %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :threesize, t("⑤スリーサイズ（B/W/H/)") %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :threesize %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :cup, t('⑥cup数') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :cup %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :address, t('⑦お住まい') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :address %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :experience, t("⑧風俗経験(あり・なし）") %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :experience %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :profession, t('⑨現在の職業') %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :profession %></div>
+    </div>
+
+    <div class="row application_content">
+      <div class="col-md-4 col-xs-4"><%= f.label :preferreddate, t("⑩面接希望日時（何月/何日/時間)") %></div>
+      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :preferreddate %></div>
+    </div>
+
+    <div class="row application_content">
       <div class="col-md-3 col-xs-3"><%= f.label :question, t('⑪質問事項等')  %></div>
       <div class="col-md-3 col-xs-3"></div>
-      <div class="col-md-3 col-xs-3"></div>
-      <div class="col-md-3 col-xs-3"><%= f.text_field :question  %></div>
+      <div class="col-md-6 col-xs-6"><%= f.text_field :question  %></div>
     </div>
+
     <%= f.submit '確認', class: 'btn-primary', id: 'confirm' %>
   </div>
 <% end %>
