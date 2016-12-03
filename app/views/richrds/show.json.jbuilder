@@ -1,0 +1,1 @@
+json.partial! "richrds/richrd", richrd: @richrd

@@ -1,5 +1,5 @@
 class TreatmentsController < ApplicationController
-  before_action :set_treatment, only: [:show, :edit, :update, :destroy]
+  # before_action :set_treatment, only: [:show, :edit, :update, :destroy]
 
   # GET /treatments
   # GET /treatments.json
@@ -10,6 +10,10 @@ class TreatmentsController < ApplicationController
   # GET /treatments/1
   # GET /treatments/1.json
   def show
+  end
+
+  def roger
+
   end
 
   # GET /treatments/new

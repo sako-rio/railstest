@@ -1,0 +1,1 @@
+json.array! @richrds, partial: 'richrds/richrd', as: :richrd

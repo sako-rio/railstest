@@ -1,0 +1,2 @@
+module RichrdHelper
+end
