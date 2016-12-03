@@ -13,6 +13,9 @@
   margin:0 auto;
 }
 
+.confirm_header {
+  font-size: 300%;
+}
 // footer
 .footer {
   font-size: 400%;
@@ -87,82 +90,91 @@ li a:hover{
 
 #application_name{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_age{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_preferreddate{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_height{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_weight{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_threesize{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_cup{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_address{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_experience{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_profession{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #application_question{
   color: #000000;
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   height: 100%;
 }
 
 #confirm {
+  background:none;
+  text-decoration: none;
+  border:0;
+  color: #C0C0C0;
+  font-size: 400%;
+  width: 750px;
+}
+
+#back {
   background:none;
   text-decoration: none;
   border:0;

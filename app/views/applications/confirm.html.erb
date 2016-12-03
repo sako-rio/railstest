@@ -1,88 +1,86 @@
-<div class="page-header">
-  <h1>送信内容の確認　以下の内容でよろしいですか？</h1>
+<div class="page-header confirm_header">
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-9 col-xs-8">以下の内容でよろしいですか？</div>
+    <div class="col-md-2 col-xs-2"></div>
+  </div>
 </div>
 
 <%= form_for @application, :url => mail_send_path do |f| %>
-  <div align="center">
-    <table class="application_content_1">
-      <tr>
-        <th><%= f.label :name, t('①お名前')%></th>
-        <td><font color=#000000>　　　　　　　　　　　　k</font></td>
-        <td><%= f.text_field :name, :readonly => true %></td>
-      </tr>
-    </table>
-    <table class="application_content_2">
-      <tr>
-        <th><%= f.label :age, t('②年齢') %></th>
-        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
-        <td><%= f.text_field :age, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_3">
-      <tr>
-        <th><%= f.label :height, t('③身長') %></th>
-        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
-        <td><%= f.text_field :height, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_4">
-      <tr>
-        <th><%= f.label :weight, t('④体重') %></th>
-        <td><font color=#000000>　　　　　　　　　　　　　k</font></td>
-        <td><%= f.text_field :weight, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_5">
-      <tr>
-        <th><%= f.label :threesize, t('⑤スリーサイズ（B/W/H/)') %></th>
-        <td>　　　　</td>
-        <td><%= f.text_field :threesize, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_6">
-      <tr>
-        <th><%= f.label :cup, t('⑥cup数') %></th>
-        <td><font color=#000000>　　　　　　　　　　　　k</font></td>
-        <td><%= f.text_field :cup, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_7">
-      <tr>
-        <th><%= f.label :address, t('⑦お住まい') %></th>
-        <td>　　　　　　　　　　　　</td>
-        <td><%= f.text_field :address, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_8">
-      <tr>
-        <th><%= f.label :experience, t('⑧風俗経験(あり・なし）') %></th>
-        <td><font color=#000000>　　　　　k</font></td>
-        <td><%= f.text_field :experience, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_9">
-      <tr>
-        <th><%= f.label :profession, t('⑨現在の職業') %></th>
-        <td>　　　　　　　　　　　</td>
-        <td><%= f.text_field :profession, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_10">
-      <tr>
-        <th><%= f.label :preferreddate, t('⑩面接希望日時（何月/何日/時間）') %></th>
-        <td>　</td>
-        <td><%= f.text_field :preferreddate, :readonly => true  %></td>
-      </tr>
-    </table>
-    <table class="application_content_11">
-      <tr>
-        <th><%= f.label :question, t('⑪質問事項等')  %></th>
-        <td>　　　　　　　　　　　</td>
-        <td><%= f.text_field :question, :readonly => true %></td>
-      </tr>
-    </table>
-    <%= f.submit '送信', class: 'btn-primary' %>
-    <br>
-    <%= link_to '戻る', :back, class: 'btn-primary' %>
+<div align="center">
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :name, t('①お名前')%></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :name, :readonly => true %></div>
   </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :age, t('②年齢') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :age, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :height, t('③身長') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :height, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :weight, t('④体重') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :weight, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :threesize, t("⑤スリーサイズ（B/W/H/)") %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :threesize, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :cup, t('⑥cup数') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :cup, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :address, t('⑦お住まい') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :address, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :experience, t("⑧風俗経験(あり・なし）") %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :experience, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-4 col-xs-4"><%= f.label :profession, t('⑨現在の職業') %></div>
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :profession, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-5 col-xs-5"><%= f.label :preferreddate, t("⑩面接希望日時（何月/何日/時間)") %></div>
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :preferreddate, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-5 col-xs-5"><%= f.label :question, t('⑪質問事項等')  %></div>
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :question, :readonly => true  %></div>
+  </div>
+
+  <%= f.submit '送信', id:'confirm' %>
+  <br>
+  <%= link_to '戻る', :back, id:'back' %>
+
 <% end %>
