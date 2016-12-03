@@ -108,6 +108,12 @@
         <td><%= f.text_field :question  %></td>
       </tr>
     </table>
+    <div class="row application_content_11">
+      <div class="col-md-3 col-xs-3"><%= f.label :question, t('⑪質問事項等')  %></div>
+      <div class="col-md-3 col-xs-3"></div>
+      <div class="col-md-3 col-xs-3"></div>
+      <div class="col-md-3 col-xs-3"><%= f.text_field :question  %></div>
+    </div>
     <%= f.submit '確認', class: 'btn-primary', id: 'confirm' %>
   </div>
 <% end %>
