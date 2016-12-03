@@ -71,9 +71,11 @@ li a:hover{
   color: #C0C0C0;
   font-size: 150%;
   height: 80px;
+  margin-right : 10%;
+  margin-left : 10%;
   border: 2px #FFFFFF solid;
-  margin-bottom: 20px;
-  padding: 0px 50px;
+  padding: 5px 50px;
+  margin-bottom: 20px
 }
 
 .application_content_2 {
@@ -127,7 +129,7 @@ li a:hover{
   margin-right : 10%;
   margin-left : 10%;
   border: 2px #FFFFFF solid;
-  padding: 5px 49px;
+  padding: 5px 50px;
   margin-bottom: 20px
 }
 
@@ -138,7 +140,7 @@ li a:hover{
   margin-right : 10%;
   margin-left : 10%;
   border: 2px #FFFFFF solid;
-  padding: 5px 48px;
+  padding: 5px 50px;
   margin-bottom: 20px
 }
 
@@ -149,7 +151,7 @@ li a:hover{
   margin-right : 10%;
   margin-left : 10%;
   border: 2px #FFFFFF solid;
-  padding: 5px 48px;
+  padding: 5px 50px;
   margin-bottom: 20px
 }
 
@@ -202,6 +204,66 @@ li a:hover{
 
 #application_name{
   font-size: 150%;
-  width: 440px;
-  height: 60px;
+  width: 400px;
+  height: 40px;
+}
+
+#application_age{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_preferreddate{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_height{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_weight{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_threesize{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_cup{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_address{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_experience{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_profession{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
+}
+
+#application_question{
+  font-size: 150%;
+  width: 400px;
+  height: 40px;
 }
