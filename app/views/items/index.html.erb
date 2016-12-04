@@ -6,11 +6,15 @@
 <br>
 <br>
 <br>
-<div id="slide">
-  <ul>
-    <li><a href=""><%= image_tag 'roger.jpg' %></a></li>
-    <li><a href=""><%= image_tag 'richrd.jpg' %></a></li>
-  </ul>
+<div class="row">
+  <div class="col-md-2 col-xs-2 "></div>
+  <div class="col-md-8 col-xs-8 ">
+    <ul class="bxslider">
+      <li><%= image_tag 'roger.jpg', id:'slid_roger' %></li>
+      <li><%= image_tag 'richrd.jpg', id:'slid_richrd' %></li>
+    </ul>
+  </div>
+  <div class="col-md-2 col-xs-2 "></div>
 </div>
 <br>
 <br>
