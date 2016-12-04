@@ -2,15 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body{
+  font-family: "MS 明朝";
+}
 // header
 .header {
-  font-size: 350%;
+  font-size: 400%;
   background-color: #000000;
   color: #C0C0C0;
   height: 150px;
   font-family: "MS 明朝";
-  width: 1000px;
-  margin:0 auto;
+  width: 1200px;
 }
 
 .confirm_header {
