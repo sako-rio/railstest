@@ -1,6 +1,21 @@
 class ApplicationsController < ApplicationController
   def index
+    require 'date'
+    require 'rubygems'
+    require 'active_support/time'
+    @days = []
+    today = Date.today
+    1.upto(180) do |i|
+      @days << (Date.parse(today.to_s) + i.day).to_s
+    end
+    @age = [*(18..60)]
+    @height = [*(130..190)]
+    @weight = [*(30..80)]
+    @cup = [*('A'..'L')]
     @inquiry = Application.new
+    @bust = [*('50'..'150')]
+    @waist = [*('30'..'100')]
+    @hip = @bust
     render action: 'index'
   end
 
@@ -16,32 +31,11 @@ class ApplicationsController < ApplicationController
   end
 
   def thanks
-    # User = Struct.new(:name, :email)
-    # @application = Application.new(application_params)
-    # user = User.new("name", "kazusako1818@gmail.com")
-    #
-    # respond_to do |format|
-    #   if @application.save
-    #     # 擬似的なUser構造体を作成する
-    #     # user = Application.new("name", "<送信したいメールアドレス>")
-    #     # deliverメソッドを使って、メールを送信する
-    #     PostMailer.post_email(user, @application).deliver
-    #     format.html { redirect_to @application, notice: 'Post was successfully created.' }
-    #     format.json { render :show, status: :created, location: @application }
-    #     else
-    #     format.html { render :new }
-    #     format.json { render json: @application.errors, status: :unprocessable_entity }
-    #   end
-    # end
-
-
-    # ApplicationMailer.received_email(@application).deliver
-    # render action: 'thanks'
   end
 
   def application_params
     params[:application].permit(
       :name, :age, :height, :weight, :threesize, :cup, :address, :experience,
-      :profession, :preferreddate, :question, :contact)
+      :profession, :preferreddate, :question, :contact, :bust, :waist, :hip)
   end
 end

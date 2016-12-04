@@ -32,31 +32,33 @@
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :age, t('②年齢') %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :age %></div>
+      <div class="col-md-6 col-xs-6"><%= f.select :age, @age.map { |a| a.to_s + '歳'} %></div>
     </div>
 
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :height, t('③身長') %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :height %></div>
+      <div class="col-md-6 col-xs-6"><%= f.select :height, @height.map { |h| h.to_s + 'cm'} %></div>
     </div>
 
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :weight, t('④体重') %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :weight %></div>
+      <div class="col-md-6 col-xs-6"><%= f.select :weight, @weight.map { |w| w.to_s + 'kg'} %></div>
     </div>
 
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :threesize, t("⑤スリーサイズ（B/W/H/)") %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :threesize %></div>
+      <div class="col-md-2 col-xs-2"><%= f.select :bust, @bust %></div>
+      <div class="col-md-2 col-xs-2"><%= f.select :waist, @waist %></div>
+      <div class="col-md-2 col-xs-2"><%= f.select :hip, @hip %></div>
     </div>
 
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :cup, t('⑥cup数') %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :cup %></div>
+      <div class="col-md-6 col-xs-6"><%= f.select :cup, @cup.map { |c| c.to_s + ' Cup'} %></div>
     </div>
 
     <div class="row application_content">
@@ -68,7 +70,7 @@
     <div class="row application_content">
       <div class="col-md-4 col-xs-4"><%= f.label :experience, t("⑧風俗経験(あり・なし）") %></div>
       <div class="col-md-2 col-xs-2"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :experience %></div>
+      <div class="col-md-6 col-xs-6"><%= f.select :experience, ['あり', 'なし'] %></div>
     </div>
 
     <div class="row application_content">
