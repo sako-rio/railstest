@@ -7,12 +7,13 @@ body{
 }
 // header
 .header {
+  top: 20px;
+  text-align: center;
   font-size: 400%;
   background-color: #000000;
   color: #C0C0C0;
   height: 150px;
   font-family: "MS 明朝";
-  width: 1200px;
 }
 
 .confirm_header {

@@ -8,33 +8,27 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 
-    <!-- プルダウンメニュー -->
-    <ul id="menu">
-      <li class="menu" ><%= image_tag 'menu.jpg' %>
-      <ul class="child">
-        <li><%= link_to 'CONCEPT', controller: 'concepts', action: 'index'%></li>
-        <li><%= link_to '待遇', controller: 'treatments', action: 'index'%></li>
-        <li><%= link_to '募集要項', controller: 'requirements', action: 'index'%></li>
-        <li><%= link_to '入店までの流れ', controller: 'flows', action: 'index'%></li>
-        <li><%= link_to '応募フォーム', controller: 'applications', action: 'index'%></li>
-      </ul>
-    </li>
-
-    <!-- 共通タイトル -->
-    <div align="center">
-      <div class="header">
-        <table>
-          <tr>
-            <th></th>
-            <td>NAGOYA FIRST ONE GROUP</td>
-          </tr>
-        </table>
+    <div class="row">
+      <div class="col-md-3 col-xs-3 ">
+        <!-- プルダウンメニュー -->
+        <ul id="menu">
+          <li class="menu" ><%= image_tag 'menu.jpg' %>
+          <ul class="child">
+            <li><%= link_to 'CONCEPT', controller: 'concepts', action: 'index'%></li>
+            <li><%= link_to '待遇', controller: 'treatments', action: 'index'%></li>
+            <li><%= link_to '募集要項', controller: 'requirements', action: 'index'%></li>
+            <li><%= link_to '入店までの流れ', controller: 'flows', action: 'index'%></li>
+            <li><%= link_to '応募フォーム', controller: 'applications', action: 'index'%></li>
+          </ul>
+        </li>
       </div>
+      <!-- 共通タイトル -->
+      <div class="col-md-6 col-xs-6 header">NAGOYA FIRST ONE GROUP</div>
+      <div class="col-md-3 col-xs-3 "></div>
     </div>
-
   </head>
-
   <body>
+    <br>
 
     <%= yield %>
 
