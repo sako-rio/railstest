@@ -48,8 +48,7 @@
     </div>
 
     <div class="row application_content">
-      <div class="col-md-4 col-xs-4"><%= f.label :threesize, t("⑤スリーサイズ（B/W/H/)") %></div>
-      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.label :threesize, t("⑤スリーサイズ（B/W/H/)") %></div>
       <div class="col-md-2 col-xs-2"><%= f.select :bust, @bust %></div>
       <div class="col-md-2 col-xs-2"><%= f.select :waist, @waist %></div>
       <div class="col-md-2 col-xs-2"><%= f.select :hip, @hip %></div>
@@ -68,8 +67,7 @@
     </div>
 
     <div class="row application_content">
-      <div class="col-md-4 col-xs-4"><%= f.label :experience, t("⑧風俗経験(あり・なし）") %></div>
-      <div class="col-md-2 col-xs-2"></div>
+      <div class="col-md-6 col-xs-6"><%= f.label :experience, t("⑧風俗経験(あり・なし）") %></div>
       <div class="col-md-6 col-xs-6"><%= f.select :experience, ['あり', 'なし'] %></div>
     </div>
 
@@ -80,14 +78,13 @@
     </div>
 
     <div class="row application_content">
-      <div class="col-md-5 col-xs-5"><%= f.label :preferreddate, t("⑩面接希望日時（何月/何日/時間)") %></div>
-      <div class="col-md-1 col-xs-1"></div>
-      <div class="col-md-6 col-xs-6"><%= f.text_field :preferreddate %></div>
+      <div class="col-md-6 col-xs-6"><%= f.label :preferreddate, t("⑩面接希望日時（日付/時間)") %></div>
+      <div class="col-md-4 col-xs-4"><%= f.select :date, @days %></div>
+      <div class="col-md-2 col-xs-2"><%= f.select :time, @time %></div>
     </div>
 
     <div class="row application_content">
-      <div class="col-md-5 col-xs-5"><%= f.label :contact, t("⑪ご連絡先(mail or tell)") %></div>
-      <div class="col-md-1 col-xs-1"></div>
+      <div class="col-md-6 col-xs-6"><%= f.label :contact, t("⑪ご連絡先(mail or tell)") %></div>
       <div class="col-md-6 col-xs-6"><%= f.text_field :contact %></div>
     </div>
 

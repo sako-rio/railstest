@@ -16,6 +16,7 @@ class ApplicationsController < ApplicationController
     @bust = [*('50'..'150')]
     @waist = [*('30'..'100')]
     @hip = @bust
+    @time = [*('0'..'24')]
     render action: 'index'
   end
 
@@ -36,6 +37,6 @@ class ApplicationsController < ApplicationController
   def application_params
     params[:application].permit(
       :name, :age, :height, :weight, :threesize, :cup, :address, :experience,
-      :profession, :preferreddate, :question, :contact, :bust, :waist, :hip)
+      :profession, :preferreddate, :question, :contact, :bust, :waist, :hip, :date, :time)
   end
 end

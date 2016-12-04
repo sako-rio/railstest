@@ -82,7 +82,7 @@ ul.child li a{
   margin-right : 10%;
   margin-left : 10%;
   border: 2px #FFFFFF solid;
-  padding: 20px 50px;
+  padding: 20px 0px;
   margin-bottom: 10px;
 }
 
@@ -196,6 +196,19 @@ ul.child li a{
   height: 100%;
 }
 
+#application_date {
+  color: #000000;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#application_time {
+  color: #000000;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+}
 #confirm {
   background:none;
   text-decoration: none;

@@ -10,6 +10,6 @@ class UsersController < ApplicationController
   def application_params
     params.require(:application).permit(
       :name, :age, :height, :weight, :threesize, :cup, :address, :experience,
-      :profession, :preferreddate, :question, :contact, :bust, :waist, :hip)
+      :profession, :preferreddate, :question, :contact, :bust, :waist, :hip, :date, :time)
   end
 end

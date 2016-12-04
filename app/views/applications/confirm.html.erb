@@ -72,7 +72,8 @@
   <div class="row application_content">
     <div class="col-md-5 col-xs-5"><%= f.label :preferreddate, t("⑩面接希望日時（何月/何日/時間)") %></div>
     <div class="col-md-1 col-xs-1"></div>
-    <div class="col-md-6 col-xs-6"><%= f.text_field :preferreddate, :readonly => true %></div>
+    <div class="col-md-4 col-xs-4"><%= f.text_field :date, :readonly => true %></div>
+    <div class="col-md-2 col-xs-2"><%= f.text_field :time, :readonly => true %></div>
   </div>
 
   <div class="row application_content">
