@@ -74,7 +74,13 @@
   </div>
 
   <div class="row application_content">
-    <div class="col-md-5 col-xs-5"><%= f.label :question, t('⑪質問事項等')  %></div>
+    <div class="col-md-5 col-xs-5"><%= f.label :contact, t("⑪ご連絡先(mail or tell)") %></div>
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-6 col-xs-6"><%= f.text_field :contact, :readonly => true %></div>
+  </div>
+
+  <div class="row application_content">
+    <div class="col-md-5 col-xs-5"><%= f.label :question, t('⑫質問事項等')  %></div>
     <div class="col-md-1 col-xs-1"></div>
     <div class="col-md-6 col-xs-6"><%= f.text_field :question, :readonly => true  %></div>
   </div>

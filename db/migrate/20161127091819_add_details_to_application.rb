@@ -10,5 +10,6 @@ class AddDetailsToApplication < ActiveRecord::Migration
     add_column :applications, :profession, :string
     add_column :applications, :preferreddate, :string
     add_column :applications, :question, :string
+    add_column :applications, :contact, :string
   end
 end

@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20161127091819) do
     t.string   "profession"
     t.string   "preferreddate"
     t.string   "question"
+    t.string   "contact"
   end
 
   create_table "concepts", force: :cascade do |t|

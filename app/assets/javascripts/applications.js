@@ -55,6 +55,12 @@ $(function () {
       }
     }
 
+    if ($('#application_contact').val() == '') {
+      if (!alert('ご連絡先は必須項目です。')) {
+        return false;
+      }
+    }
+
     if ($('#application_preferreddate').val() == '') {
       if (!alert('面接希望日は必須項目です。')) {
         return false;

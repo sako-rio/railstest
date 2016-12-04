@@ -42,6 +42,6 @@ class ApplicationsController < ApplicationController
   def application_params
     params[:application].permit(
       :name, :age, :height, :weight, :threesize, :cup, :address, :experience,
-      :profession, :preferreddate, :question)
+      :profession, :preferreddate, :question, :contact)
   end
 end
