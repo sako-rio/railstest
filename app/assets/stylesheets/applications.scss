@@ -11,7 +11,7 @@ body{
   text-align: center;
   font-size: 400%;
   background-color: #000000;
-  color: #C0C0C0;
+  color:#C0C0C0;
   height: 150px;
   font-family: "MS 明朝";
 }
@@ -198,4 +198,18 @@ ul.child li a{
   color: #C0C0C0;
   font-size: 400%;
   width: 750px;
+}
+
+
+
+#slide {
+width:640px;
+height:300px;
+margin:0 auto;
+position:relative;
+}
+#slide img {
+position:absolute;
+left:0;
+top:0;
 }
