@@ -10,8 +10,12 @@
   <div class="col-md-2 col-xs-2 "></div>
   <div class="col-md-8 col-xs-8 ">
     <ul class="bxslider">
-      <li><%= image_tag 'roger.jpg', id:'slid_roger' %></li>
-      <li><%= image_tag 'richrd.jpg', id:'slid_richrd' %></li>
+      <li>
+        <%= link_to image_tag('roger.jpg', { :border => '0', :alt => 'roger', id:'slid_roger'}), treatments_roger_path %>
+      </li>
+      <li>
+        <%= link_to image_tag('richrd.jpg', { :border => '0', :alt => 'roger', id:'slid_roger'}), richrds_path %>
+      </li>
     </ul>
   </div>
   <div class="col-md-2 col-xs-2 "></div>
